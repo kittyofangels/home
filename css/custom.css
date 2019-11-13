@@ -1,8 +1,15 @@
-.ssm-icon{
-    font-size: 32px;
-}
 html,body{
     height: 100%;
+}
+body{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div {
+    transition: all 0.5s ease;
+}
+.ssm-icon{
+font-size: 32px;
 }
 .container{
     max-width: 745px;
