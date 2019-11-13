@@ -6,6 +6,12 @@ var viewIndex = (function() {
       htmlString = indexTemplateService.createLinkList(options);
       console.log(htmlString);
       $('#link-container').append(htmlString);
+    },
+    createCopyright:function(){
+      htmlString = indexTemplateService.createCopyright();
+      console.log(htmlString);
+      $('#copyright').append(htmlString);
+      
     }
   };
   return fn;

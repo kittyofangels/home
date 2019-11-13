@@ -12,3 +12,6 @@ var linkButtonTemplate = `
 {{/links}}
 </div>
 `;
+var copyrightTemplate = `
+<div class="w-100 small py-2" style="text-align:center;">​&copy; Copyright {{currentYear}}, <a href="https://www.rescueteamla.org/">The Rescue Team</a>. All rights reserved.</div>
+`;
