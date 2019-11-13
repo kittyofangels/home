@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>The Rescue Team</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="img/icons/favicon.png" />
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" type="image/png" href="img/icons/favicon.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome-css/all.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/overrides.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="container py-3 h-100">
+      <div class="row h-100">
+        <div class="col-12 align-self-center banner-wrap">
+          <div class="w-100 banner-paw bounce-in-top header-section">
+            <h2 class="text-center content-title">The Rescue Team&#8203;</h2>
+            <div class="text-center text-black-50 paragraph">
+              Dedicated to helping<br> homeless
+              animals in  the <br />Los Angeles area.
+            </div>
+          </div>
+          <div class="d-flex flex-column my-3 w-100">
+            <a
+              class="m-auto text-center"
+              href="https://www.instagram.com/therescueteam/"
+              target="_blank"
+            >
+              <div
+                style="width:100px; height: 100px; overflow: hidden;"
+                class="d-flex align-items-center mx-auto my-3 border rounded-circle scale-in-center"
+              >
+                <img
+                  src="img/icons/favicon.png"
+                  alt="profile"
+                  class="img-fluid m-auto w-100"
+                />
+              </div>
+              <h5 class="m-auto">@TheRescueTeam</h5>
+            </a>
+          </div>
+        </div>
+        <div id="link-container" class="col-12 align-self-center">
+          <!-- Template -->
+        </div>
+
+        <div class="col-12 align-self-end">
+          <div class="ssm d-flex flex-row w-100 my-3 py-2">
+            <div class="col-3 d-flex justify-content-center">
+              <a href="https://www.facebook.com/rescueteamla/" target="_blank">
+                <i class="ssm-icon text-secondary fab fa-facebook"></i>
+              </a>
+            </div>
+            <div class="col-3 d-flex justify-content-center">
+              <a href="https://twitter.com/rescueteamla" target="_blank">
+                <i class="ssm-icon text-secondary fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="col-3 d-flex justify-content-center">
+              <a
+                href="https://www.instagram.com/therescueteam/"
+                target="_blank"
+              >
+                <i class="ssm-icon text-secondary fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="col-3 d-flex justify-content-center">
+              <a href="mailto:info@rescueteamla.org" target="_blank">
+                <i class="ssm-icon text-secondary far fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mb-3">
+          <div id="copyright" class="row"></div>
+          <div class="row">
+            <div
+              id="created-by"
+              class="w-100 small"
+              style="text-align:center;"
+            >
+              created by
+              <a href="http://virtualhavenstudios.com/">virtualhavenstudios</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-3.4.1.min.js"><\/script>'
+        );
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function() {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga('create', 'UA-XXXXX-Y', 'auto');
+      ga('set', 'transport', 'beacon');
+      ga('send', 'pageview');
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script src="js/vendor/contentful.browser.min.js"></script>
+    <script src="js/vendor/mustache.js"></script>
+    <script>
+      var client = contentful.createClient({
+        space: '34dybh1naneg',
+        accessToken: 'ds-rI99xpH-AUWCUtJtQvOux7r9KYrmyii5fkUQMRQg'
+      });
+    </script>
+    <script src="js/services/contentful-api-service.js"></script>
+    <!-- Custom Scripts -->
+    <script src="js/services/index-template-service.js"></script>
+    <script src="js/services/data-service.js"></script>
+    <script src="js/templates/index-templates.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/mvc/view.js"></script>
+    <script src="js/mvc/model.js"></script>
+    <script src="js/mvc/controller.js"></script>
+  </body>
+</html>
