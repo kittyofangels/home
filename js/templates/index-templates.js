@@ -13,5 +13,5 @@ var linkButtonTemplate = `
 </div>
 `;
 var copyrightTemplate = `
-<div class="w-100 small py-2" style="text-align:center;">​&copy; Copyright {{currentYear}}, <a href="https://www.rescueteamla.org/">The Rescue Team</a>. All rights reserved.</div>
+<div class="w-100 small py-2" style="text-align:center;">​&copy; Copyright {{currentYear}}, <a href="https://www.kittyofangels.org/">Kitty Of Angels</a>. All rights reserved.</div>
 `;
